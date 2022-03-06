@@ -1,0 +1,11 @@
+services:    
+  nessus:
+    container_name: nessus
+    image: tenableofficial/nessus
+    ports:
+      - 8834:8834
+    restart: always
+    volumes:
+      - nessusvolume:/opt/nessus
+volumes:
+  nessusvolume:
