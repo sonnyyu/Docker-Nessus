@@ -16,7 +16,7 @@ docker-compose up -d
 ```bash
 docker-compose down 
 ```
-# Quit and remove Volume
+# Quit and remove volume 
 ```bash
 docker-compose down -v
 ```
