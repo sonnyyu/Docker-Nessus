@@ -10,7 +10,7 @@ cd docker-nessus
 ```
 # Getting started
 ```bash
-docker pull 
+docker pull tenableofficial/nessus
 docker-compose up -d
 ```
 # Quit 
