@@ -7,5 +7,14 @@ services:
     restart: always
     volumes:
       - nessusvolume:/opt/nessus
+    networks:
+      - nessus
+
 volumes:
   nessusvolume:
+    name: nessusvolume
+
+networks:
+  nessus:
+    driver: bridge
+    name: nessus
